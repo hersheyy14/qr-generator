@@ -1,3 +1,7 @@
+You can generate and download your own qr-code by entering any text. Select desired dimension and background color accordingly.
+
+link: https://qr-codegenerate.netlify.app
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
