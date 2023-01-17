@@ -1,0 +1,60 @@
+@import url("http://fonts.cdnfonts.com/css/lilly");
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding-top: 30px;
+  background-color: #a3b18a;
+}
+.nav {
+  background-color: #588157;
+  color: antiquewhite;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  font-size: 25px;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gen input {
+  height: 35px;
+  width: 250px;
+  font-size: 20px;
+  padding-left: 5px;
+}
+
+.generate-button {
+  position: relative;
+  height: 38px;
+  width: 100px;
+  top: -2px;
+  font-size: 18px;
+  border: none;
+  color: whitesmoke;
+  background-color: #588157;
+  box-shadow: 2px 2px 5px rgb(74, 182, 74);
+  cursor: pointer;
+}
+.generate-button:active {
+  box-shadow: none;
+}
+
+.other {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+.download {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.download button {
+  background-color: #588157;
+}
